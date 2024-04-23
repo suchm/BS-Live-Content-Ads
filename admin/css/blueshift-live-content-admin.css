@@ -1,0 +1,23 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #live-content input {
+	width: 100%;
+	max-width: 300px;
+}
+#live-content input[name="live_content_preview"] {
+	max-width: 100%;
+}
+#live-content select {
+	width: 100%;
+	max-width: 200px;
+}
+.multiplePubSelect {
+	display: none;
+}
+.fstResults { 
+	overflow-y: auto;
+	max-height: 300px;
+}
